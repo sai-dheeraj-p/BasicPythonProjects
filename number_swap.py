@@ -1,0 +1,16 @@
+a=100
+b=200
+print("original value of a  = ",a)
+print("original value of b  = ",b)
+temp=a
+a=b
+b=temp
+print("new value of a  = ",a)
+print("new value of b  = ",b)
+x=300
+y=500
+print("original value of x  = ",x)
+print("original value of y  = ",y)
+x,y=y,x
+print("new value of x by the other method  = ",x)
+print("new value of y by the other method  = ",y)
