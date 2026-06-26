@@ -1,5 +1,3 @@
-from pip._internal.commands import index
-
 a='-'*70
 A=(1,'two','THREE',4.5,(5,'six','SEVEN'))
 print()
